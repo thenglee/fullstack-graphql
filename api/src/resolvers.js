@@ -13,7 +13,11 @@ module.exports = {
       return models.Pet.findOne({ id: id })
     }
   },
-  //Mutation: {},
+  Mutation: {
+    newPet(_, { input }, { models }) {
+      return models.Pet.create(input)
+    }
+  },
   Pet: {
     //img(pet) {
     //  return pet.type === 'DOG'
