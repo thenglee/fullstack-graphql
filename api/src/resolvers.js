@@ -9,8 +9,11 @@ module.exports = {
       return models.Pet.findMany(input)
     },
     pet(_, { id }, { models }) {
-      console.log('id', id)
+      console.log('Query => pet')
       return models.Pet.findOne({ id: id })
+    },
+    user(_, __, { models }) {
+      return models.User.findOne()
     }
   },
   Mutation: {
@@ -19,11 +22,20 @@ module.exports = {
     }
   },
   Pet: {
+    owner(pet, _, { models }) {
+      console.log('Pet => owner')
+      return models.User.findOne()
+    }
     //img(pet) {
     //  return pet.type === 'DOG'
     //    ? 'https://placedog.net/300/300'
     //    : 'http://placekitten.com/300/300'
     //}
   },
-  User: {}
+  User: {
+    pets(user, _, { models }) {
+      console.log('user => pets')
+      return models.Pet.findMany({ user: user.id })
+    }
+  }
 }

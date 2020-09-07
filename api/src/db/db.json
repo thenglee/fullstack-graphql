@@ -8,25 +8,29 @@
       "id": "1",
       "createdAt": "30 Jun 2020",
       "name": "garfield",
-      "type": "cat"
+      "type": "cat",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "2",
       "createdAt": "30 Sep 2020",
       "name": "Tabby",
-      "type": "dog"
+      "type": "dog",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "3",
       "createdAt": "19 Sep 2020",
       "name": "Chilli",
-      "type": "BIRD"
+      "type": "BIRD",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "3ECVlvdbkeuLTVQDLyicZ",
       "createdAt": 1599401022655,
       "name": "BB",
-      "type": "rabbit"
+      "type": "rabbit",
+      "user": "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }
