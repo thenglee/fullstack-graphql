@@ -24,6 +24,20 @@
       "name": "Garfield",
       "owner": "jBWMVGjm50l6LGwepDoty",
       "createdAt": "343"
+    },
+    {
+      "id": "e8FcDsAETzHx56oeA-rNW",
+      "createdAt": 1599552583825,
+      "name": "batman",
+      "type": "DOG",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "JgKYnY6HbtawPh46uI_xR",
+      "createdAt": 1599577821504,
+      "name": "momo",
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }
